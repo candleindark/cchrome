@@ -1,12 +1,14 @@
 [tool.poetry]
 name = "cchrome"
 version = "0.1.0"
-description = ""
+description = "A chrome driver with the assurance of its get method loads page fully."
 authors = ["Isaac To <candleindark@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+polling2 = "0.4.7"
+selenium = "3.141.0"
 
 
 [build-system]
