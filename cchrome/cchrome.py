@@ -53,7 +53,7 @@ class CChrome(Chrome):
                 polling2.poll(
                     target=self.execute_script,
                     step=polling_lapse,
-                    args=('return document.readyState',),
+                    args=('return document.readyState;',),
                     timeout=get_to_complete_timeout,
                     check_success=lambda doc_ready_state: doc_ready_state == 'complete'
                 )
