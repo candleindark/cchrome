@@ -9,8 +9,8 @@ class CompletionTimeoutError(Exception):
 
 class CChrome(Chrome):
     """
-    An instance of this class represents a Chrome web driver that provides a method that loads a web page completely
-    in the current browser session.
+    An instance of this class represents a Chrome web driver that provides a method that loads any given web page
+    completely in the current browser session.
     """
 
     def __init__(self, *args, **kwargs):
