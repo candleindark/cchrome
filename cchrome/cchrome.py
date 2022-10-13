@@ -17,7 +17,7 @@ class CChrome(Chrome):
         super(CChrome, self).__init__(*args, **kwargs)
 
     def get_with_page_completion(self, url,
-                                 page_load_timeout_multiplier: float = 4.0, get_to_complete_timeout: float = 10):
+                                 page_load_timeout_multiplier: float = 4.0, get_to_complete_timeout: float = 10.0):
         """
         Load a web page at a given URL in the current browser session with the assurance of the completion of loading
 
