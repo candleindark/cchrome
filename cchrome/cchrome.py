@@ -32,7 +32,7 @@ class CChrome(Chrome):
                                              The total allowed page loading time is the value of this parameter times
                                              the current page load timeout of this driver. I.e.,
                                              total allowed page loading time =
-                                             page_load_timeout_multiplier * chrome.timeouts.page_load
+                                             page_load_timeout_multiplier * cchrome.timeouts.page_load
         :param get_to_complete_timeout: The total time allocated for polling for the loading state of the page to reach
                                         the state of "complete" since the Chrome.get() method returns after fetching
                                         the page. The value of this parameter should be no less than 5.
