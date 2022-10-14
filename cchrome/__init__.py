@@ -1,1 +1,1 @@
-from .cchrome import CChrome
+from .cchrome import CChrome, CompletionTimeoutError
