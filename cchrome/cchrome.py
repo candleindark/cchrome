@@ -28,7 +28,7 @@ class CChrome(Chrome):
                   or the time elapsed is greater than the allowed page loading time.
 
         :param url: The URL of the web page to be loaded
-        :param page_load_timeout_multiplier: The multiplier used to set the total allowed page loading time.
+        :param page_load_timeout_multiplier: The multiplier used to set the total allowed page loading time, indirectly.
                                              The total allowed page loading time is the value of this parameter times
                                              the current page load timeout of this driver. I.e.,
                                              total allowed page loading time =
