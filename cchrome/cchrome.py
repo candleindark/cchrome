@@ -37,7 +37,8 @@ class CChrome(Chrome):
                                         the state of "complete" since the Chrome.get() method returns after fetching
                                         the page. The value of this parameter should be no less than 5.
         :return: The return of the last call to Chrome.get() that successfully loads the requested page completely
-        :raise: CompletionTimeoutError if page fails to be completely loaded within the total allowed page loading time
+        :raise: CompletionTimeoutError if the given page fails to be completely loaded within
+                the total allowed page loading time
         """
         if get_to_complete_timeout < 5.0:
             raise ValueError(f'The value of get_to_complete_timeout is too small. Try a value no less than 5.')
